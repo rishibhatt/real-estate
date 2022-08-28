@@ -1,0 +1,45 @@
+.footer-container
+{
+  
+    margin-top: 150px;
+    padding: 50px;
+    color: #383b3d;
+    margin-left: 80px;
+}
+
+.footer
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.foot-image
+{
+    height: 200px;
+    
+}
+.foot-text
+{
+    margin-top: 100px;
+    margin-left: 130px;
+}
+
+.contacts
+{
+    
+    display: flex;
+    flex-direction: row;
+    float: right;
+    width: 500px;
+    margin-right: 50px;
+    justify-content: space-around;
+    
+}
+
+.love
+{
+    display: flex;
+    flex-direction: row;
+    float: left;
+}

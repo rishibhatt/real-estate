@@ -1,0 +1,184 @@
+.listing-container
+{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+
+.card {
+    margin-top: 80px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 350px;
+    border-radius: 5px;
+    color: #383b3d;
+
+   
+  }
+
+  .heading-price
+  {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .horizontal
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    
+  }
+
+ .icons
+ {
+    margin-top: 5px;
+    padding-top: 5px;
+ }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+    transform: scale(1.2);
+  }
+  
+  .houseimage {
+    border-radius: 5px 5px 0 0;
+    width: 350px;
+    height:230px;
+  }
+  
+  .card-container {
+    padding: 2px 16px;
+  }
+
+  .price
+  {
+    color: #383b3d;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid #383b3d;
+    border-radius: 80px;
+    padding: 10px;
+    width: 150px;
+    padding-left: 15px;
+    margin-bottom: 0;
+  }
+  .citystyle
+  {
+    margin-top: 8px;
+    padding-left: 3px;
+    margin-bottom: 0;
+  }
+
+  .city-style
+  {
+    display: flex;
+    flex-direction: row;
+    padding-left: 5px;
+  }
+
+  .add
+  {
+    
+    padding-left: 3px;
+    margin-top: 5px;
+  }
+
+  .address-style
+  {
+    display: flex;
+    flex-direction: row;
+    padding-left: 5px;
+    color: gray;
+    font-weight:400 ;
+  }
+
+  .light
+  {
+    font-weight: 400;
+    color: gray;
+  }
+
+  .search-bar
+  {
+    position: absolute;
+    left:950px;
+    text-align: center;
+    color: whitesmoke;
+    top:800px;
+    
+
+  }
+
+  .search-bar input
+  {
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 16px;
+    letter-spacing: 3px;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    color: #383b3d;
+    box-shadow: 5px 5px;
+    width: 250px;
+  }
+
+  .search-bar button
+  {
+    padding: 10px;
+    font-size: 16px;
+    letter-spacing: 3px;
+    margin-left: 15px;
+    background-color: whitesmoke;
+    color: #383b3d;
+    box-shadow: 5px 5px;
+  }
+.refresh
+{
+  margin-right: 0px;
+  padding: 10px;
+    font-size: 16px;
+    letter-spacing: 3px;
+   margin-top: 30px;
+    background-color: whitesmoke;
+    color: #383b3d;
+    box-shadow: 5px 5px;
+
+}
+
+.filter-bar
+{
+ 
+  margin-left: 340px;
+    color: whitesmoke;
+}
+
+.filter-bar select
+{
+  border: 2px solid black;
+    padding: 10px;
+    font-size: 16px;
+    letter-spacing: 3px;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    color: #383b3d;
+    box-shadow: 5px 5px;
+    width: 250px;
+}
+
+.filter-bar button
+{
+  padding: 10px;
+  font-size: 16px;
+  letter-spacing: 3px;
+  margin-left: 15px;
+  background-color: whitesmoke;
+  color: #383b3d;
+  box-shadow: 5px 5px
+
+}

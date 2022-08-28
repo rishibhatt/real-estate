@@ -1,25 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import AddHouse from './Components/AddHouse';
+import Hero from './Components/Hero';
+import ListedHouse from './Components/ListedHouse';
+import Navbar from './Components/Navbar';
+import { BrowserRouter,Routes, Route } from 'react-router-dom';
+import Landing from './Components/Landing';
+import Footer from './Components/Footer';
+import Favourite from './Components/Favourite';
 
 function App() {
-  return (
+  return <BrowserRouter>
+  <Navbar />
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+        <Route path='/' element={<Landing />}></Route>
+        <Route path='/addhouse' element = {<AddHouse />}></Route>
+        <Route path='/favourite' element = {<Favourite />}></Route>
+      </Routes>
+      
     </div>
-  );
+    <Footer />
+  </BrowserRouter>
+
+
 }
 
 export default App;
